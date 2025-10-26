@@ -1,0 +1,16 @@
+python Homework\ 1/4.5-lab2_edge_inference.py 
+Initializing model: openai/whisper-tiny.en
+Model initialized. Starting inference...
+|
+Using custom `forced_decoder_ids` from the (generation) config. This is deprecated in favor of the `task` and `language` flags/config options.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+* * * * * * * * * * * * * * * * * * * * |
+Done openai/whisper-tiny.en : Latency: 2.70+/-1.01s
+Initializing model: openai/whisper-base.en
+Model initialized. Starting inference...
+| * * * * * * * * * * * * * * * * * * * * |
+Done openai/whisper-base.en : Latency: 6.23+/-1.68s
+Initializing model: openai/whisper-small.en
+Model initialized. Starting inference...
+| * * * * * * * * * * * * * * * * * * * * |
+Done openai/whisper-small.en : Latency: 39.55+/-4.33s
